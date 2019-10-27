@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca9fc4bb-573e-4d81-b35c-348f99573c78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca9fc4bb-573e-4d81-b35c-348f99573c78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +61,6 @@
             <path>
               <item name="Blog_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_1" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,7 +135,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8205000" />
+    <option name="totallyTimeSpent" value="8322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="672" extended-state="6" />
