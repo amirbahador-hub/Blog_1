@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "main.html" %}
 
-    {% include "head.html" %}
-
+    {% block title_tag %}
+    <title>My Blog{% block title %}{% endblock title %}</title>
+    {% endblock title_tag %}
+{% block body %}
     <body>
 
         {% include "aside.html" %}
@@ -15,5 +16,4 @@
         {% include "scripts.html" %}
 
     </body>
-
-</html>
+{% endblock body %}
