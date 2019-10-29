@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{#    <title>My Blog - New Post</title>#}
+
+
+{% block content %}
+
+        <div id="colorlib-main">
+            <section class="ftco-section ftco-no-pt ftco-no-pb">
+                <div class="container">
+                    <div class="row d-flex">
+                        <div class="col-xl-12 px-md-5 py-5">
+                            <div class="row pt-md-4">
+                                <div class="col-md-12">
+                                    <div class="blog-entry-2 ftco-animate">
+                                        <div class="comment-form-wrap pt-5">
+                                            <h3 class="mb-5">New Post</h3>
+                                            <form action="#" class="p-3 p-md-5 bg-light">
+                                                <div class="form-group">
+                                                    <label for="title">Title</label>
+                                                    <input type="text" class="form-control" id="title">
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="body">Body</label>
+                                                    <textarea id="body" cols="30" rows="10" class="form-control"></textarea>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="submit" value="Submit" class="btn py-3 px-4 btn-primary">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END-->
+                        </div>
+                        <!-- END COL -->
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- END COLORLIB-MAIN -->
+    </div>
+    <!-- END COLORLIB-PAGE -->
+
+
+
+{% endblock content %}
+
+</html>
