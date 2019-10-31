@@ -1,15 +1,33 @@
 from django.shortcuts import render
-from django.shortcuts import get_object_or_404
-from datetime import datetime
 from .models import Post
-from django.http import HttpResponse
 
-#
+
 def index(request):
-    return HttpResponse("Hello World!")
-#
-# def single(request):
-#     return render(request, 'single.html', {})
+    queryset = Post.objects.filter(featured=True)
+    context = {
+        'object_list': queryset
+    }
+    return render(request, 'index.html', context)
+
+
+def login(request):
+    return render(request, 'login.html', {})
+
+
+def register(request):
+    return render(request, 'register.html', {})
+
+
+def new_post(request):
+    return render(request, 'new_post.html', {})
+
+
+def single(request, pk):
+    post = Post.objects.get(pk=pk)
+    context = {
+        'post': post
+    }
+    return render(request, 'single.html', context)
 
 #     latest_post = Post.objects.order_by('-published')[:1]
 #
